@@ -11,7 +11,7 @@ int main()
 	int summ = 0;
 	int arr[15];
 
-	cout << "Enter array: ";
+	cout << "Enter array(15 numbers): ";
 
 	for (int i = 0; i < 15; i++)
 	{
@@ -58,5 +58,6 @@ int main()
 		default:
 			cout << "Error.Enter the right command" << endl;
 			break;
+		}
 	}
 }
