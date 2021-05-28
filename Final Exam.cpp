@@ -51,6 +51,8 @@ int main()
 				arr[i] = 0;
 			};
 			break;
-
+		case 5:
+			notOver = false;
+			break;
 	}
 }
