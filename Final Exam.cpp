@@ -30,7 +30,13 @@ int main()
 			cin >> num2;
 			arr[num1 - 1] = num2;
 			break;
-
+		case 2:
+			for (int i = 0; i < 15; i++)
+			{
+				cout << arr[i] << " ";
+			}
+			cout << endl;
+			break;
 
 	}
 }
