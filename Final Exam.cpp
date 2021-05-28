@@ -51,6 +51,6 @@ int main()
 				arr[i] = 0;
 			};
 			break;
-
+		}
 	}
 }
