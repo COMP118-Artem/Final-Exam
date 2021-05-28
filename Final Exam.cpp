@@ -45,6 +45,12 @@ int main()
 			}
 			cout << summ << endl;
 			break;
+		case 4:
+			for (int i = 0; i < 15; i++)
+			{
+				arr[i] = 0;
+			};
+			break;
 
 	}
 }
