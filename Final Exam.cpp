@@ -17,9 +17,12 @@ int main()
 	{
 		cin >> arr[i];
 	}
+	while (notOver)
+	{
+		cout << "\n1) Enter data in array\n2) Show array\n3) Sum of all elements of the array\n4) Make all elements of array zero\n5) Exit\nPlease enter choice:";
+		cin >> comm;
 
 
 
-
-
+	}
 }
