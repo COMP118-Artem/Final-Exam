@@ -54,5 +54,8 @@ int main()
 		case 5:
 			notOver = false;
 			break;
+		default:
+			cout << "Error.Enter the right command" << endl;
+			break;
 	}
 }
