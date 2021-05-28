@@ -21,7 +21,15 @@ int main()
 	{
 		cout << "\n1) Enter data in array\n2) Show array\n3) Sum of all elements of the array\n4) Make all elements of array zero\n5) Exit\nPlease enter choice:";
 		cin >> comm;
-
+		switch (comm)
+		{
+		case 1:
+			cout << "Enter position: ";
+			cin >> num1;
+			cout << "Enter value: ";
+			cin >> num2;
+			arr[num1 - 1] = num2;
+			break;
 
 
 	}
